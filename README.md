@@ -11,6 +11,16 @@ The original source files were stored on a previous laptop and are no longer ava
 The system was designed to manage books, authors, categories, members, borrowing/returns, reservations, and fines.
 
 The documented database contains 8 related tables and was normalized to Third Normal Form (3NF).
+## Technologies
+
+- Oracle SQL
+- PL/SQL
+- Relational Database Design
+- 3NF Normalization
+- Database Triggers
+- Stored Procedures
+- Views
+- Indexing
 
 ## Documented components
 
