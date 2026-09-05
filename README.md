@@ -81,4 +81,4 @@ Database Management Systems Project — Abasyn University
 
 ## Next step
 
-Rebuild the complete schema from the original design, add reproducible test data, and extend the database into a modern web application.
+Reconstruct the complete database schema from the documented design, add reproducible test data, and gradually extend the project into a practical application.
