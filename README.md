@@ -1,16 +1,27 @@
 # Automated Library Management System
 
-A documented reconstruction of an academic Database Management Systems (DBMS) project developed using Oracle SQL and PL/SQL.
+A documented reconstruction of an academic **Database Management Systems (DBMS)** project developed using **Oracle SQL and PL/SQL**.
 
-## Important note
+> **Important note:** The original source files were stored on a previous laptop and are no longer available. This repository reconstructs only the database logic explicitly recorded in the surviving project report. These files are **not presented as the original source code**.
 
-The original source files were stored on a previous laptop and are no longer available. This repository preserves and reconstructs only the database logic explicitly recorded in the surviving project report. These files are **not** presented as the original source code.
+---
 
 ## Overview
 
-The system was designed to manage books, authors, categories, members, borrowing/returns, reservations, and fines.
+The system was designed to manage:
 
-The documented database contains 8 related tables and was normalized to Third Normal Form (3NF).
+- Books
+- Authors
+- Categories
+- Members
+- Borrowing and returns
+- Reservations
+- Fines
+
+The documented database contains **8 related tables** and was normalized to **Third Normal Form (3NF)**.
+
+---
+
 ## Technologies
 
 - Oracle SQL
@@ -22,7 +33,9 @@ The documented database contains 8 related tables and was normalized to Third No
 - Views
 - Indexing
 
-## Documented components
+---
+
+## Documented Components
 
 - Relational database design
 - Primary and foreign-key constraints
@@ -34,7 +47,9 @@ The documented database contains 8 related tables and was normalized to Third No
 - Indexing
 - Validation and testing
 
-## Tables
+---
+
+## Database Tables
 
 | Table | Purpose |
 |---|---|
@@ -47,7 +62,9 @@ The documented database contains 8 related tables and was normalized to Third No
 | `FINES` | Fine information |
 | `RESERVATIONS` | Reservation records |
 
-## Repository structure
+---
+
+## Repository Structure
 
 ```text
 sql/
@@ -60,35 +77,5 @@ sql/
 
 docs/
 └── project-notes.md
-```
 
-## SQL and PL/SQL
-
-The reconstructed SQL includes availability, borrowing, aggregation, grouping, joins, and nested-query examples. The documented PL/SQL includes the `fine_trigger` trigger and `issue_book` procedure.
-
-## Database views
-
-- `Available_Books`
-- `Fine_Report`
-- `Borrow_History`
-
-## Indexes
-
-- `BOOKS(title)`
-- `MEMBERS(member_name)`
-- `ISSUEDBOOKS(issue_date)`
-
-## Validation
-
-The original documentation records tests for duplicate ISBN validation, foreign-key integrity, fine calculation, book availability, and trigger behavior.
-
-## Team
-
-**Abdullah Khan**  
-**Waqas Jan**
-
-Database Management Systems Project — Abasyn University
-
-## Next step
-
-Reconstruct the complete database schema from the documented design, add reproducible test data, and gradually extend the project into a practical application.
+README.md
